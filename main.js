@@ -476,7 +476,9 @@
       if (!cfg.whatsapp) { aviso.textContent = "Falta conectar un medio de contacto (CONFIG)."; aviso.hidden = false; btn.disabled = true; return; }
       var num3 = String(cfg.whatsapp).replace(/\D/g, ""), wb = $("#wa-btn"), ta2 = $("#f-necesita");
       ["#f-nombre", "#f-negocio", "#f-correo"].forEach(function (s) { $(s).parentNode.hidden = true; });
-      btn.hidden = true; $("#wa-fila").hidden = true; wb.hidden = false;
+      btn.hidden = true; btn.style.display = "none"; $("#wa-fila").hidden = true; wb.hidden = false;
+      ["#f-nombre", "#f-negocio", "#f-correo"].forEach(function (s) { $(s).parentNode.style.display = "none"; });
+      f.addEventListener("submit", function (e) { e.preventDefault(); wb.click(); });
       ta2.placeholder = "Lo que marques a la izquierda aparece aquí. También puedes escribirlo tú.";
       function armar() {
         var t = ta2.value.trim();
