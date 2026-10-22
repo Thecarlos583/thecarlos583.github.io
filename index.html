@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="only light">
+<title>Carlos Mendoza · Páginas web y automatizaciones</title>
+<meta name="description" content="Páginas web y automatizaciones para negocios que quieren crecer. Trabajos reales, ejemplos y precios claros.">
+<meta name="theme-color" content="#EDF1E8">
+<meta property="og:title" content="Menos pendientes. Más clientes.">
+<meta property="og:description" content="Páginas web y automatizaciones para negocios que quieren crecer.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230E1B2C'/%3E%3Cpath d='M16 34l12 12 21-26' fill='none' stroke='%23F5D547' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fuentes/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fuentes/publicsans.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
+<script>
+/* Lo único que hay que completar para dejar la página lista. */
+var CONFIG = {
+  correo: "",                             /* vacío: el formulario se convierte en un mensaje por WhatsApp (nada se envía a servicios externos) */
+  instagram: "",                          /* usuario de Instagram, sin @ (vacío: no se muestra) */
+  whatsapp: "584247632008",               /* número con código de país, sin + ni espacios */
+  whatsappVisible: "+58 424 7632008"
+};
+</script>
+<link rel="stylesheet" href="styles.css?v=20261021">
+<noscript><style>.panel[hidden]{display:block!important;margin-bottom:28px}</style></noscript>
+</head>
+<body>
+<div class="hojas" aria-hidden="true"></div>
+<a class="salto" href="#main">Saltar al contenido</a>
+
+<div class="progreso" id="progreso" aria-hidden="true"></div>
+<header class="barra" id="barra">
+  <div class="cont barra-in">
+    <a class="marca-web" href="#inicio" aria-label="Carlos Mendoza, inicio">
+      <svg viewBox="0 0 28 28" width="28" height="28" aria-hidden="true"><rect width="28" height="28" rx="6" fill="#0E1B2C"/><path d="M7 15l5 5 9-11" fill="none" stroke="#F5D547" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Carlos Mendoza</span>
+    </a>
+    <nav class="enlaces" aria-label="Principal">
+      <a href="#trabajos">Trabajos</a>
+      <a href="#ejemplos">Ejemplos</a>
+      <a href="#automatizaciones">Automatizaciones</a>
+      <a href="#precios">Precios</a>
+    </nav>
+    <a class="btn btn-chico btn-lleno" href="#hablemos">Hablemos</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- PORTADA -->
+<section class="portada" id="inicio">
+  <div class="cont portada-grid">
+    <div class="portada-txt">
+      <h1 aria-label="Menos pendientes. Más clientes.">
+        <span class="l" aria-hidden="true"><span class="p"><span>Menos</span></span> <span class="p"><span>pendientes.</span></span></span>
+        <span class="l" aria-hidden="true"><span class="p"><span>Más</span></span> <span class="p"><span><span class="marca">clientes.</span></span></span></span>
+      </h1>
+      <p class="entrada">Páginas web y automatizaciones para negocios que quieren crecer. Trabajo con negocios latinos de Miami, Doral y alrededores.</p>
+      <div class="acciones">
+        <a class="btn btn-lleno" href="#trabajos">Ver trabajos</a>
+        <a class="btn btn-borde" href="#hablemos">Hablemos</a>
+      </div>
+      <p class="nota-chica"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Ves una vista previa antes de que se publique.</p>
+    </div>
+
+    <div class="portada-vis" data-par="0.05">
+      <figure class="libreta" id="libreta">
+        <div class="hoja-atras" aria-hidden="true"></div>
+        <div class="hoja">
+          <figcaption class="lib-tit">Pendientes de hoy</figcaption>
+          <ul class="lista">
+            <li class="hecho"><span class="cb" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span class="cuerpo"><span class="tx">Responder “¿cuánto cuesta?”<i class="tacha" aria-hidden="true"></i></span><em class="nota">Ya está en la página</em></span></li>
+            <li class="hecho"><span class="cb" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span class="cuerpo"><span class="tx">Pasar ventas a la libreta<i class="tacha" aria-hidden="true"></i></span><em class="nota">La hoja las suma sola</em></span></li>
+            <li class="hecho"><span class="cb" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span class="cuerpo"><span class="tx">Anotar quién me debe<i class="tacha" aria-hidden="true"></i></span><em class="nota">La hoja lo avisa</em></span></li>
+            <li class="hecho"><span class="cb" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span class="cuerpo"><span class="tx">Cambiar un precio en la web<i class="tacha" aria-hidden="true"></i></span><em class="nota">Me lo dices y lo cambio</em></span></li>
+            <li class="hecho"><span class="cb" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span class="cuerpo"><span class="tx">Armar el reporte del lunes<i class="tacha" aria-hidden="true"></i></span><em class="nota">Te llega por correo</em></span></li>
+            <li class="hecho"><span class="cb" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span class="cuerpo"><span class="tx">Copiar pedidos a una hoja<i class="tacha" aria-hidden="true"></i></span><em class="nota">Caen solos a la hoja</em></span></li>
+          </ul>
+          <p class="lib-pie"><span>Hecho.</span> Tu día, para atender tu negocio.</p>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- TRABAJOS -->
+<section class="sec" id="trabajos">
+  <div class="cont">
+    <header class="enc" data-r="cascada">
+      <h2>Negocios <span class="nb"><span class="circ">reales<svg viewBox="0 0 220 70" preserveAspectRatio="none" aria-hidden="true"><path d="M12 38C10 14 120 4 190 16c24 5 22 36-26 44C96 70 10 60 16 32" pathLength="1"/></svg></span>,</span> páginas en línea.</h2>
+      <p>Lo que ya está publicado y funcionando.</p>
+    </header>
+
+    <!-- CASO 1 -->
+    <article class="caso caso-a" id="chalet">
+      <div class="caso-txt" data-r="cascada">
+        <h3>Chalet Rancho Luis</h3>
+        <p class="rotulo">Posada en la Colonia Tovar</p>
+        <p class="lead">Una página para que el huésped vea las habitaciones, sepa cuánto cuesta y reserve sin dar vueltas. Dominio propio, rápida en el teléfono y con las fotos y videos del propio chalet.</p>
+        <ul class="hechos">
+          <li><strong>¿Con quién viene?</strong> La persona elige pareja, familia o grupo, pone sus fechas y la página recomienda una habitación y escribe el mensaje de reserva.</li>
+          <li><strong>Cada habitación con su precio,</strong> más el chalet completo y el chalet aparte para grupos.</li>
+          <li><strong>Fotos con visor y recorridos en video,</strong> la carta del restaurante, la ruta para llegar y las preguntas frecuentes.</li>
+        </ul>
+        <!-- TESTIMONIO: cuando Luis lo mande, escríbelo aquí y quita el atributo hidden de la figura. -->
+        <figure class="testimonio" id="testimonio-chalet" hidden>
+          <blockquote><p></p></blockquote>
+          <figcaption>Luis Aguilar, Chalet Rancho Luis</figcaption>
+        </figure>
+        <a class="enlace-flecha" href="https://chaletrancholuis.com" target="_blank" rel="noopener">Ver chaletrancholuis.com <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="caso-vis" data-r="mascara">
+        <div class="escena" data-par="0.04">
+          <div class="pc">
+            <div class="pc-barra" aria-hidden="true"><i></i><i></i><i></i><span class="pc-url">chaletrancholuis.com</span></div>
+            <div class="pc-pant" data-pant><img src="assets/img/chalet-pc.webp" width="1100" height="1528" alt="Portada de la página del Chalet Rancho Luis en computadora" loading="lazy" decoding="async"></div>
+          </div>
+          <div class="tel tel-sobre" data-par="-0.07">
+            <div class="pant" data-pant><div class="barra-estado" aria-hidden="true"></div><img src="assets/img/chalet-tel.webp" width="390" height="2500" alt="Página del Chalet Rancho Luis en el teléfono" loading="lazy" decoding="async"></div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CASO 2 -->
+    <article class="caso caso-b" id="agro">
+      <div class="caso-vis" data-r="mascara">
+        <div class="escena escena-chat" data-par="0.04">
+          <div class="tel tel-chat">
+            <div class="pant chat" id="chat">
+              <div class="chat-cab">
+                <span class="avatar" aria-hidden="true">D</span>
+                <span class="chat-quien"><strong>Distribuidora agropecuaria</strong><small>Asistente de atención</small></span>
+              </div>
+              <div class="chat-msgs" id="chat-msgs">
+                <p class="m yo">Hola, ¿tienen urea?</p>
+                <p class="m el">¡Hola! Sí, urea en saco de 50 kg a $24. ¿Cuántos necesitas?</p>
+                <p class="m yo">¿Aceptan Zelle?</p>
+                <p class="m el">No puedo confirmarte esa información ahora, nuestro equipo podrá verificártela.</p>
+                <p class="m yo">Quiero apartar 10 sacos</p>
+                <p class="m el">Perfecto. Te paso con un asesor para apartarlos y coordinar el pago.</p>
+              </div>
+              <div class="chat-pie" aria-hidden="true"><span>Escribe un mensaje</span></div>
+            </div>
+          </div>
+          <p class="pie-ej"><span class="chip-ej">Ejemplo</span> Conversación con datos ficticios</p>
+        </div>
+      </div>
+      <div class="caso-txt" data-r="cascada">
+        <h3>Atiende y lleva las cuentas</h3>
+        <p class="rotulo">Una distribuidora agropecuaria con la que ya trabajé</p>
+        <p class="lead">Un asistente contesta a cualquier hora con el catálogo real del negocio. Si no sabe algo, lo dice y pasa la conversación a una persona.</p>
+        <dl class="filas">
+          <div><dt>Atiende</dt><dd>Precios, productos y disponibilidad, con la información del negocio.</dd></div>
+          <div><dt>No inventa</dt><dd>Lo que no sabe, se lo pasa a una persona del equipo.</dd></div>
+          <div><dt>No cobra</dt><dd>No cierra ventas ni toca pagos: eso lo hace el dueño.</dd></div>
+          <div><dt>Lleva las cuentas</dt><dd>Para el dueño, otro asistente anota ventas, cobros e inventario y le manda un resumen cada mañana.</dd></div>
+        </dl>
+      </div>
+    </article>
+
+    <!--
+      PLANTILLA PARA UN CASO NUEVO (copiar y pegar dentro de la sección #trabajos, antes del cierre):
+      <article class="caso caso-a"> ... mismo esqueleto que #chalet, con capturas en assets/img/ ... </article>
+      Alternar caso-a (texto a la izquierda) y caso-b (visual a la izquierda).
+    -->
+
+    <aside class="siguiente" data-r="cascada">
+      <p>¿Tu negocio podría ser el próximo caso?</p>
+      <a class="btn btn-lleno" href="#hablemos">Hablemos</a>
+    </aside>
+  </div>
+</section>
+
+<!-- EJEMPLOS -->
+<section class="sec ejemplos" id="ejemplos">
+  <div class="cont">
+    <header class="enc enc-ancho" data-r="cascada">
+      <h2>Así se vería la tuya.</h2>
+      <p>Tres páginas de ejemplo para rubros distintos. Toca una para recorrerla completa.</p>
+    </header>
+    <div class="mostrador">
+      <button class="ej" type="button" data-visor="assets/img/ej-fisio.webp" data-tit="Fisioterapia" data-alto="1560" data-r="cascada">
+        <span class="tel"><span class="pant" data-pant><span class="barra-estado" aria-hidden="true"></span><img src="assets/img/ej-fisio.webp" width="390" height="1560" alt="Página de ejemplo de una clínica de fisioterapia" loading="lazy" decoding="async"></span></span>
+        <span class="ej-pie"><span class="chip-ej">Ejemplo</span><strong>Fisioterapia</strong><span>El paciente marca dónde le duele y el mensaje llega ya escrito.</span></span>
+      </button>
+      <button class="ej" type="button" data-visor="assets/img/ej-resto.webp" data-tit="Restaurante" data-alto="1560" data-r="cascada">
+        <span class="tel"><span class="pant" data-pant><span class="barra-estado" aria-hidden="true"></span><img src="assets/img/ej-resto.webp" width="390" height="1560" alt="Página de ejemplo de un restaurante" loading="lazy" decoding="async"></span></span>
+        <span class="ej-pie"><span class="chip-ej">Ejemplo</span><strong>Restaurante</strong><span>El cliente arma su pedido en el menú y lo envía con el total.</span></span>
+      </button>
+      <button class="ej" type="button" data-visor="assets/img/ej-spa.webp" data-tit="Spa y estética" data-alto="1560" data-r="cascada">
+        <span class="tel"><span class="pant" data-pant><span class="barra-estado" aria-hidden="true"></span><img src="assets/img/ej-spa.webp" width="390" height="1560" alt="Página de ejemplo de un spa" loading="lazy" decoding="async"></span></span>
+        <span class="ej-pie"><span class="chip-ej">Ejemplo</span><strong>Spa y estética</strong><span>Tres preguntas y la página recomienda el tratamiento.</span></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- AUTOMATIZACIONES -->
+<section class="sec auto" id="automatizaciones">
+  <div class="cont">
+    <header class="enc enc-ancho" data-r="cascada">
+      <h2>Lo repetitivo, que se <span class="sub-linea">haga solo<svg viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true"><path d="M3 9C40 3 70 14 110 8s70-6 100 0 60 4 87-2" pathLength="1"/></svg></span>.</h2>
+      <p>Sistemas a la medida, sin tecnicismos. Se trabajan en herramientas que ya conoces, como las hojas de Google y el correo.</p>
+    </header>
+
+    <div class="tabs" id="tabs">
+      <div class="tab-lista" role="tablist" aria-label="Qué se puede automatizar">
+        <span class="tab-ind" aria-hidden="true"></span>
+        <button role="tab" id="t1" aria-controls="p1" aria-selected="true" type="button"><strong>Ventas, inventario y cobros</strong><span>Una hoja que lleva el negocio</span></button>
+        <button role="tab" id="t2" aria-controls="p2" aria-selected="false" type="button" tabindex="-1"><strong>Reportes por correo</strong><span>Tu semana, sin abrir nada</span></button>
+        <button role="tab" id="t3" aria-controls="p3" aria-selected="false" type="button" tabindex="-1"><strong>Formularios a una hoja</strong><span>Pedidos, citas y registros</span></button>
+      </div>
+
+      <div class="tab-cuerpo">
+        <!-- Panel 1: la hoja -->
+        <div class="panel" id="p1" role="tabpanel" aria-labelledby="t1">
+          <p class="panel-txt">Quién debe, qué se vendió, qué queda y cuánto entró hoy. Al terminar el día, el cierre de caja ya está hecho. Esto ya lo tengo armado y funcionando.</p>
+          <div class="hoja-calc" aria-label="Ejemplo de hoja de control">
+            <div class="hc-cab"><strong>Control del negocio</strong><span class="chip-ej chip-ej-os">Ejemplo con datos ficticios</span></div>
+            <div class="hc-vistas" id="hc-vistas">
+
+              <div class="hc-vista on" id="v-resumen" data-vista="resumen" role="tabpanel" aria-labelledby="h-resumen">
+                <div class="hc-kpis">
+                  <div><small>Ventas de hoy</small><b data-cuenta="1284.5" data-dec="2" data-pre="$">$1,284.50</b></div>
+                  <div><small>Efectivo</small><b data-cuenta="412" data-dec="2" data-pre="$">$412.00</b></div>
+                  <div><small>Zelle</small><b data-cuenta="598.5" data-dec="2" data-pre="$">$598.50</b></div>
+                  <div><small>Tarjeta</small><b data-cuenta="274" data-dec="2" data-pre="$">$274.00</b></div>
+                </div>
+                <table class="hc-tabla">
+                  <caption>Quién debe</caption>
+                  <thead><tr><th scope="col">Cliente</th><th scope="col" class="n">Días</th><th scope="col" class="n">Monto</th></tr></thead>
+                  <tbody>
+                    <tr><td>Panadería La Esquina</td><td class="n">12</td><td class="n">$214.50</td></tr>
+                    <tr class="vence"><td>Taller Hermanos Ruiz <span class="etq">Vencido</span></td><td class="n">31</td><td class="n">$320.00</td></tr>
+                    <tr><td>Restaurante El Patio</td><td class="n">5</td><td class="n">$200.00</td></tr>
+                  </tbody>
+                  <tfoot><tr><td>Por cobrar</td><td></td><td class="n">$734.50</td></tr></tfoot>
+                </table>
+                <div class="hc-bajo"><span>Se está acabando:</span> Guantes talla M, quedan 3 · Cajas medianas, quedan 8</div>
+                <div class="hc-caja">
+                  <button type="button" class="btn btn-lleno btn-chico" id="cerrar-caja" aria-pressed="false">Cerrar caja del día</button>
+                  <p class="sello" id="sello" aria-live="polite"></p>
+                </div>
+              </div>
+
+              <div class="hc-vista" id="v-ventas" data-vista="ventas" role="tabpanel" aria-labelledby="h-ventas">
+                <table class="hc-tabla hc-ventas">
+                  <caption>Ventas de hoy</caption>
+                  <thead><tr><th scope="col">Hora</th><th scope="col">Producto</th><th scope="col">Pago</th><th scope="col" class="n">Total</th></tr></thead>
+                  <tbody>
+                    <tr><td>8:12 a. m.</td><td>Combo familiar x2</td><td>Efectivo</td><td class="n">$48.00</td></tr>
+                    <tr><td>9:40 a. m.</td><td>24 cupcakes</td><td>Zelle</td><td class="n">$96.00</td></tr>
+                    <tr><td>11:05 a. m.</td><td>Guantes talla M x10</td><td>Tarjeta</td><td class="n">$74.00</td></tr>
+                    <tr><td>12:30 p. m.</td><td>Cajas medianas x40</td><td>Zelle</td><td class="n">$182.50</td></tr>
+                    <tr><td>1:15 p. m.</td><td>Combo familiar x6</td><td>Efectivo</td><td class="n">$144.00</td></tr>
+                    <tr><td>2:50 p. m.</td><td>Pedido mayorista</td><td>Zelle</td><td class="n">$320.00</td></tr>
+                    <tr><td>4:20 p. m.</td><td>Bolsas grandes x50</td><td>Efectivo</td><td class="n">$220.00</td></tr>
+                    <tr><td>5:10 p. m.</td><td>Guantes talla M x20</td><td>Tarjeta</td><td class="n">$200.00</td></tr>
+                  </tbody>
+                  <tfoot><tr><td colspan="3">Total del día</td><td class="n" data-cuenta="1284.5" data-dec="2" data-pre="$">$1,284.50</td></tr></tfoot>
+                </table>
+              </div>
+
+              <div class="hc-vista" id="v-inventario" data-vista="inventario" role="tabpanel" aria-labelledby="h-inventario">
+                <table class="hc-tabla hc-inv">
+                  <caption>Qué queda</caption>
+                  <thead><tr><th scope="col">Producto</th><th scope="col" class="n">Quedan</th><th scope="col" class="oc">Nivel</th><th scope="col">Estado</th></tr></thead>
+                  <tbody>
+                    <tr class="vence"><td>Guantes talla M</td><td class="n">3</td><td class="oc"><span class="nivel" style="--n:.02"><i></i></span></td><td><span class="etq">Pedir</span></td></tr>
+                    <tr class="poco"><td>Cajas medianas</td><td class="n">8</td><td class="oc"><span class="nivel" style="--n:.06"><i></i></span></td><td><span class="etq etq-ambar">Poco</span></td></tr>
+                    <tr><td>Combo familiar</td><td class="n">46</td><td class="oc"><span class="nivel" style="--n:.3"><i></i></span></td><td><span class="etq etq-ok">Bien</span></td></tr>
+                    <tr><td>Cupcakes</td><td class="n">30</td><td class="oc"><span class="nivel" style="--n:.2"><i></i></span></td><td><span class="etq etq-ok">Bien</span></td></tr>
+                    <tr><td>Bolsas grandes</td><td class="n">120</td><td class="oc"><span class="nivel" style="--n:.8"><i></i></span></td><td><span class="etq etq-ok">Bien</span></td></tr>
+                    <tr><td>Vasos de 12 oz</td><td class="n">260</td><td class="oc"><span class="nivel" style="--n:1"><i></i></span></td><td><span class="etq etq-ok">Bien</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="hc-vista" id="v-cobros" data-vista="cobros" role="tabpanel" aria-labelledby="h-cobros">
+                <div class="cb-cab">
+                  <div><small>Por cobrar</small><b id="cb-total" data-cuenta="734.5" data-dec="2" data-pre="$">$734.50</b></div>
+                  <p class="cb-msg" id="cb-msg" aria-live="polite">3 clientes con saldo</p>
+                </div>
+                <ul class="cb-lista" id="cb-lista">
+                  <li data-monto="214.5"><span class="cb-n"><strong>Panadería La Esquina</strong><small>12 días</small></span><span class="cb-m">$214.50</span><button type="button" class="btn-mini">Marcar cobrado</button></li>
+                  <li data-monto="320" class="vence"><span class="cb-n"><strong>Taller Hermanos Ruiz</strong><small>31 días, vencido</small></span><span class="cb-m">$320.00</span><button type="button" class="btn-mini">Marcar cobrado</button></li>
+                  <li data-monto="200"><span class="cb-n"><strong>Restaurante El Patio</strong><small>5 días</small></span><span class="cb-m">$200.00</span><button type="button" class="btn-mini">Marcar cobrado</button></li>
+                </ul>
+              </div>
+            </div>
+            <div class="hc-hojas" id="hc-hojas" role="tablist" aria-label="Hojas del control">
+              <span class="hc-ind" aria-hidden="true"></span>
+              <button type="button" role="tab" id="h-resumen" data-hoja="resumen" aria-controls="v-resumen" aria-selected="true">Resumen</button>
+              <button type="button" role="tab" id="h-ventas" data-hoja="ventas" aria-controls="v-ventas" aria-selected="false" tabindex="-1">Ventas</button>
+              <button type="button" role="tab" id="h-inventario" data-hoja="inventario" aria-controls="v-inventario" aria-selected="false" tabindex="-1">Inventario</button>
+              <button type="button" role="tab" id="h-cobros" data-hoja="cobros" aria-controls="v-cobros" aria-selected="false" tabindex="-1">Cobros</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2: el correo -->
+        <div class="panel" id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+          <p class="panel-txt">Cada lunes te llega un resumen con lo vendido, lo que se está acabando y quién te debe. Sin abrir una sola hoja.</p>
+          <div class="correo" aria-label="Ejemplo de reporte por correo">
+            <div class="co-cab"><div><small>De</small> Tu negocio <small class="b">·</small> <small>Lunes, 7:00 a. m.</small></div><span class="chip-ej chip-ej-os">Ejemplo con datos ficticios</span></div>
+            <p class="co-asunto">Tu semana: ventas, lo que se acaba y quién debe</p>
+            <div class="co-barras" role="img" aria-label="Ventas por día de la semana, de lunes a sábado">
+              <div style="--h:46%"><i></i><span>L</span></div>
+              <div style="--h:58%"><i></i><span>M</span></div>
+              <div style="--h:52%"><i></i><span>M</span></div>
+              <div style="--h:71%"><i></i><span>J</span></div>
+              <div style="--h:88%"><i></i><span>V</span></div>
+              <div style="--h:100%"><i></i><span>S</span></div>
+            </div>
+            <ul class="co-lista">
+              <li><b>Lo que más se vendió:</b> Combo familiar, 38 unidades</li>
+              <li><b>Se está acabando:</b> Guantes talla M, Cajas medianas</li>
+              <li><b>Por cobrar:</b> 3 clientes, $734.50</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Panel 3: formulario a hoja -->
+        <div class="panel" id="p3" role="tabpanel" aria-labelledby="t3" hidden>
+          <p class="panel-txt">Tu cliente llena un formulario y la fila aparece sola en tu hoja, ordenada y con la fecha. Sirve para pedidos, citas o registros. Prueba el botón.</p>
+          <div class="flujo" aria-label="Ejemplo de formulario conectado a una hoja">
+            <div class="fl-form">
+              <p class="fl-tit">Nuevo pedido</p>
+              <div class="fl-campo"><small>Nombre</small><span id="fl-n">Marisol P.</span></div>
+              <div class="fl-campo"><small>Pedido</small><span id="fl-p">2 tortas de chocolate</span></div>
+              <div class="fl-campo"><small>Entrega</small><span id="fl-e">Sábado 10:00 a. m.</span></div>
+              <button type="button" class="btn btn-lleno btn-chico" id="fl-enviar">Enviar pedido</button>
+            </div>
+            <svg class="fl-flecha" viewBox="0 0 60 24" aria-hidden="true"><path d="M2 12h52M44 4l10 8-10 8" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div class="fl-hoja">
+              <div class="fl-hoja-cab"><span>Fecha</span><span>Nombre</span><span>Pedido</span><span>Entrega</span></div>
+              <div class="fl-fila"><span>12 oct.</span><span>Andrés R.</span><span>1 pastel grande</span><span>Dom. 1:00 p. m.</span></div>
+              <div class="fl-fila"><span>13 oct.</span><span>Carmen L.</span><span>24 cupcakes</span><span>Vie. 4:00 p. m.</span></div>
+              <div id="fl-nuevas"></div>
+            </div>
+          </div>
+          <p class="pie-ej"><span class="chip-ej">Ejemplo</span> Datos ficticios</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cierre-auto" data-r="cascada">
+      <p>Cuéntame qué tarea te quita más tiempo y te digo si se puede automatizar.</p>
+      <a class="btn btn-lleno" href="#hablemos">Contarte mi tarea</a>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO TRABAJO -->
+<section class="sec proceso" id="proceso">
+  <div class="cont proceso-grid">
+    <div class="proceso-izq" data-r="cascada">
+      <h2>Cuatro pasos, sin complicarte.</h2>
+      <aside class="mant">
+        <h3><span>El mantenimiento mensual incluye</span></h3>
+        <ul>
+          <li>Cambios cuando los necesites: textos, fotos, precios.</li>
+          <li>Que todo siga funcionando, todos los días.</li>
+          <li>Soporte cuando algo no te cuadre.</li>
+        </ul>
+      </aside>
+    </div>
+    <ol class="pasos" id="pasos">
+      <li><h3>Me cuentas</h3><p>Qué hace tu negocio, qué quieres lograr y qué te quita tiempo hoy. En una conversación corta.</p></li>
+      <li><h3>Te muestro una vista previa</h3><p>Ves cómo quedaría tu página o tu sistema, en tu propio teléfono, antes de que se publique.</p></li>
+      <li><h3>Ajustamos</h3><p>Cambias lo que no te guste: textos, fotos, precios, el orden de todo.</p></li>
+      <li><h3>Se publica</h3><p>Tu página queda en línea y empiezas a recibir mensajes. Yo sigo ahí para lo que haga falta.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- PRECIOS -->
+<section class="sec precios" id="precios">
+  <div class="cont">
+    <header class="enc" data-r="cascada">
+      <h2>Precios claros, antes de empezar.</h2>
+      <p>En dólares. Se paga por Zelle.</p>
+    </header>
+    <div class="recibos">
+      <article class="recibo" data-r="mascara">
+        <h3>Página web</h3>
+        <div class="fila-precio"><span>Instalación</span><span class="monto"><small>desde</small><b class="circ">$199<svg viewBox="0 0 220 80" preserveAspectRatio="none" aria-hidden="true"><path d="M12 42C8 14 120 4 196 18c26 5 20 40-28 50C96 80 10 68 16 36" pathLength="1"/></svg></b></span></div>
+        <div class="fila-precio"><span>Mantenimiento</span><span class="monto"><b>$30</b><small>al mes</small></span></div>
+        <ul>
+          <li>Vista previa antes de publicar</li>
+          <li>Primero el teléfono, rápida y liviana</li>
+          <li>Cambios, soporte y que todo siga funcionando</li>
+        </ul>
+        <a class="btn btn-lleno" href="#hablemos">Quiero mi página</a>
+      </article>
+      <article class="recibo recibo-b" data-r="mascara">
+        <h3>Automatizaciones</h3>
+        <div class="fila-precio"><span>Proyecto</span><span class="monto"><b class="chico">Cotización</b></span></div>
+        <p class="rec-p">El precio depende de lo que haya que automatizar. Me cuentas la tarea y te respondo con un número claro, antes de empezar.</p>
+        <ul>
+          <li>Hojas de control, reportes y formularios</li>
+          <li>Hecho a la medida de tu negocio</li>
+          <li>Pago por Zelle</li>
+        </ul>
+        <a class="btn btn-borde" href="#hablemos">Pedir cotización</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- HABLEMOS -->
+<section class="sec hablemos" id="hablemos">
+  <div class="cont hab-grid">
+    <div class="hab-izq" data-r="cascada">
+      <h2>Marca lo que hoy te quita tiempo.</h2>
+      <p class="lead">Dime qué haces a mano y yo te digo por dónde empezar.</p>
+      <fieldset class="pend" id="pend">
+        <legend>Hoy hago a mano</legend>
+        <label class="ck"><input type="checkbox" value="contestar las mismas preguntas una y otra vez"><span class="caja" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span>Contesto las mismas preguntas una y otra vez</span></label>
+        <label class="ck"><input type="checkbox" value="llevar ventas e inventario en cuadernos o en varios archivos"><span class="caja" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span>Llevo ventas e inventario en un cuaderno o en varios archivos</span></label>
+        <label class="ck"><input type="checkbox" value="anotar quién me debe"><span class="caja" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span>Anoto quién me debe</span></label>
+        <label class="ck"><input type="checkbox" value="pasar pedidos, citas o registros a una hoja"><span class="caja" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span>Paso pedidos, citas o registros a una hoja</span></label>
+        <label class="ck"><input type="checkbox" value="armar reportes a mano"><span class="caja" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span>Armo reportes a mano</span></label>
+        <label class="ck"><input type="checkbox" value="tener una página web nueva o renovar la que ya tengo"><span class="caja" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 6.5" pathLength="1"/></svg></span><span>No tengo página, o la mía ya no me representa</span></label>
+      </fieldset>
+      <div class="horas">
+        <label for="horas">¿Cuántas horas a la semana le dedicas en total?</label>
+        <div class="horas-fila"><input type="range" id="horas" min="1" max="30" value="6"><output id="horas-v" for="horas">6 h</output></div>
+        <p class="horas-res" id="horas-res" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <form class="form" id="form" novalidate data-r="mascara">
+      <h3>Escríbeme</h3>
+      <div class="campo"><label for="f-nombre">Tu nombre</label><input id="f-nombre" name="name" type="text" autocomplete="name" required></div>
+      <div class="campo"><label for="f-negocio">Tu negocio</label><input id="f-negocio" name="negocio" type="text" autocomplete="organization"></div>
+      <div class="campo"><label for="f-correo">Tu correo, para responderte</label><input id="f-correo" name="email" type="email" autocomplete="email" required></div>
+      <div class="campo"><label for="f-necesita">Qué necesitas</label><textarea id="f-necesita" name="necesita" rows="5" required placeholder="Lo que marques arriba aparece aquí. También puedes escribirlo tú."></textarea></div>
+      <input type="text" name="_honey" class="trampa" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-lleno btn-ancho" type="submit" id="f-enviar">Enviar mensaje</button>
+      <a class="btn btn-lleno btn-ancho" id="wa-btn" href="#" target="_blank" rel="noopener" hidden>Enviar por WhatsApp</a>
+      <p class="estado" id="f-estado" role="status" aria-live="polite"></p>
+      <p class="aviso-config" id="aviso-config" hidden></p>
+      <p class="ig-fila" id="ig-fila" hidden>O escríbeme por Instagram: <a id="ig-link" href="#" target="_blank" rel="noopener">@usuario</a></p>
+      <p class="ig-fila" id="wa-fila" hidden>O escríbeme por WhatsApp: <a id="wa-link" href="#" target="_blank" rel="noopener">+00</a></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div class="cont pie-in">
+    <p class="pie-marca">Carlos Mendoza</p>
+    <p>Páginas web y automatizaciones para negocios.</p>
+    <nav aria-label="Pie"><a href="#trabajos">Trabajos</a><a href="#ejemplos">Ejemplos</a><a href="#automatizaciones">Automatizaciones</a><a href="#precios">Precios</a><a href="#hablemos">Hablemos</a></nav>
+    <p class="chica">Las páginas y hojas marcadas como “Ejemplo” usan datos ficticios.</p>
+  </div>
+</footer>
+
+<dialog class="visor" id="visor" aria-label="Recorrido de la página de ejemplo">
+  <button class="visor-x" type="button" id="visor-x" aria-label="Cerrar">
+    <svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+  </button>
+  <div class="tel tel-visor"><div class="pant pant-scroll" id="visor-pant" tabindex="0"><img id="visor-img" src="" alt="" width="390" height="1560"></div></div>
+  <p class="visor-cap"><span class="chip-ej">Ejemplo</span> <span id="visor-tit"></span></p>
+</dialog>
+
+<script src="main.js?v=20261021"></script>
+</body>
+</html>
