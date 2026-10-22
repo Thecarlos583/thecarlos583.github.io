@@ -534,3 +534,5 @@ html:not(.js) .tab-lista button[aria-selected="true"]{background:var(--hoja)}
 }
 .js .hc-vistas{overflow:hidden;transition:height .7s var(--lento)}
 .js .hc-vista{align-self:start}
+
+[hidden]{display:none!important}
